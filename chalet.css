@@ -1,0 +1,79 @@
+:root{
+	--backgroundChalet: url(winter.jpg);
+}
+html{
+  background: var(--backgroundChalet) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100%;
+}
+body{
+	font-family:"Verdana",sans-serif;
+	font-size: 12pt;
+	letter-spacing: 1pt;
+}
+
+.main{
+	color:white;
+	text-align:center;
+	padding: 10px;
+	position: absolute;
+    top:0;
+    max-width:800px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.title{
+	font-size: 24pt;
+	margin:10px;
+}
+.description{
+
+}
+.bottom{
+	
+	width:100%;
+	height:400px;
+}
+.formulaire{
+	background-color: rgba(110,150,215,0.4);
+	border-radius: 5px;
+	display:inline-block;
+	padding:10px;
+	max-width:360px;
+	margin:10px;
+	box-sizing: border-box;
+	vertical-align: top;
+	min-height: 400px;
+}
+
+iframe{
+	border:1px solid #afafff;
+	border-radius: 15px;
+	padding: 8px;
+	box-sizing: border-box;
+}
+textarea{
+	font-size: 12pt;
+	width: 100%;
+	min-height: 300px;
+	box-sizing: border-box;
+	resize: none;
+}
+.info{
+	padding: 10px;
+}
+.mapdiv{
+	background-color: rgba(110,150,215,0.4);
+	border-radius: 5px;
+	vertical-align: top;
+	margin:10px;
+	display:inline-block;
+	max-width: 360px;
+	box-sizing: border-box;
+	min-height: 400px;
+}
