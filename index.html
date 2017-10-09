@@ -17,27 +17,22 @@
 	<iframe src="https://calendar.google.com/calendar/embed?src=6oe05mho6ieg42m3e9s8d8hil0%40group.calendar.google.com&amp;color=%235229A3&amp;ctz=Europe%2FZurich" style="border-width:0" width="95%" height="600" frameborder="0" scrolling="no"></iframe>
 	<div class="bottom">
 	<div class="formulaire">
-		<div class="info">Nous contacter</div>
+		<div class="info">Contact</div>
 		<textarea value=""></textarea>
 		<button>Envoyer l'email</button>
 	</div>
 	<div class="mapdiv">
-	<div class="info">Nous trouver</div>
+	<div class="info">Adresse</div>
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2087.1448162672873!2d7.026699099795319!3d46.30180630752581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e95ff37a1a1e7%3A0x4fa790a2dd6deb2b!2sPraz+de+Lys%2C+1885+Chesi%C3%A8res!5e1!3m2!1sfr!2sch!4v1507540109333" width="95%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 	<div>
 
 </div>
 
 <script type="text/javascript">
-function email() {
-    var link = "mailto:reservations@chalet.com"
-            // + "?cc=myCCaddress@example.com"
-             + "?subject=" + escape("RESERVATION CHALET")
-             + "&body=" + escape(document.querySelector("textarea").value)
-    ;
-    window.open(link)
+function t() {
+    window.open(atob("bWFpbHRvOmZsb3JlbmNlY29udGV1c2VAZ21haWwuY29tP3N1YmplY3Q9UkVTRVJWQVRJT04lMjBDSEFMRVQmYm9keT0=")+escape(document.querySelector("textarea").value))
 }
-document.querySelector("button").onclick = email
+document.querySelector("button").onclick = t
 
 </script>
 </body>
